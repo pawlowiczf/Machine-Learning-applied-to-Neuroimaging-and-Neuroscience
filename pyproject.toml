@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "bids-validator>=1.14.7.post0",
+    "brainspace>=0.2.1",
+    "brainstat>=0.4.2",
     "dcm2niix>=1.0.20260724",
     "dicom2nifti>=2.6.2",
     "dipy>=1.12.1",
@@ -13,10 +15,12 @@ dependencies = [
     "ipywidgets>=8.1.9",
     "jupyter>=1.1.1",
     "matplotlib>=3.11.2",
+    "netneurotools<0.3",
     "nibabel>=5.4.2",
     "nilearn>=0.14.1",
     "numpy>=2.5.4",
     "pandas>=3.0.6",
+    "pandoc>=2.4",
     "pydicom>=3.0.2",
     "ruff>=0.17.1",
     "scikit-learn>=1.9.1",
